@@ -6,3 +6,4 @@ def eliminar_archivo(nombre_archivo):
     # Vulnerable a inyección de comandos si se usa con input de usuario
     os.system(f"rm {nombre_archivo}")
 
+def funcion_vacia():
